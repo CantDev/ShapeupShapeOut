@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <div class = "container" id = 'inputButton'>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend" id = 'rectButton'>
+              <button class="btn btn-outline-secondary" type="button" id="buttonForRect">Add Rectangle</button>
+            </div>
+            <input type="type" class="form-control" id = 'widthRect' placeholder="Width px" aria-label="This is where you enter the width of your rectangle" aria-describedby="button-addon1">
+            <input type="type" class="form-control" id = 'heightRect' placeholder="Height px" aria-label="This is where you enter the height of your revtangle" aria-describedby="button-addon1.5">
+          </div>
+          
+          <div class="input-group mb-3">
+            <input type="type" class="form-control" id = 'squareSideLength' placeholder="Side Length px" aria-label="This is where you enter the side length of your square" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="buttonForSqr">Add square</button>
+            </div>
+          </div>
+          
+          <div class="input-group mb-3">
+            <div class="input-group-prepend" id="buttonForCirc">
+              <button class="btn btn-outline-secondary" type="button">Add Circle</button>
+            </div>
+            <input type="type" class="form-control" id = 'radiusForCirc' placeholder="Radius px" aria-label="This is where you enter the radius of your circle" aria-describedby="button-addon3">
+          </div>
+          
+          <div class="input-group">
+            <input type="type" class="form-control" id = 'triSideLength' placeholder="Height px" aria-label="This is where you enter the higher of your triangle" aria-describedby="button-addon4">
+            <div class="input-group-append" id="buttonForTri">
+              <button class="btn btn-outline-secondary" type="button">Add Triangle</button>
+        
+            </div>
+          </div>
+          <div class="container m-4" id="drawingSpace"></div>
+          <div class="container" id="displayShapeInfo">
+              <div id="displayShapeNameInfo">
+                  Shape Name:
+              </div>
+              <div id="displayWidthInfo">
+                  Width:
+              </div>
+              <div id="displayHeightInfo">
+                  Height:
+              </div>
+              <div id="displayRadiusInfo">
+                  Radius:
+              </div>
+              <div id="displayAreaInfo">
+                  Area:
+              </div>
+              <div id="displayPerimeterInfo">
+                  Perimeter:
+              </div>
+          </div>
+
+    </div> 
+
+    <src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+        </script>
+        <script src="app.js"></script>
+</body>
+
+</html>

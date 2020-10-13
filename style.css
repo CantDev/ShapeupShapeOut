@@ -1,0 +1,42 @@
+#inputButton {
+    width: 600px;
+}
+
+#drawingSpace {
+    height: 600px;
+    width: 600px;
+    background-color: #7fffd4;
+    margin-top: 100px;
+    position: relative;
+}
+
+#displayShapeInfo {
+    position: relative;
+  border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: inline-flexbox;
+    
+}
+.rectangle {
+    position: absolute;
+    background-color: blueviolet
+  }
+  .square {
+    position: absolute;
+    background-color: palevioletred
+  }
+  
+  .circle {
+    position: absolute;
+    background-color: rgb(18, 20, 126);
+    border-radius: 50%;
+  }
+  
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: solid black;
+    border-right: solid transparent;
+  }
